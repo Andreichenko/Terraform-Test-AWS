@@ -15,4 +15,5 @@ resource "aws_instance" "test1" {
         "sudo service nginx start"
       ]
   }
+  // connect to AWS instance
 }
