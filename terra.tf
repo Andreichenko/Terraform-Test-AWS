@@ -11,6 +11,7 @@ resource "aws_instance" "test1" {
   provisioner "remote-exec" {
       inline = [
         "sudo yum install nginx -y",
+        "sudo yum install mc",
         "sudo service nginx start"
       ]
   }
